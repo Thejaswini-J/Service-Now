@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="sys_class_name" label="Class" language="en" table="x_406737_my_app_tickets">
+    <sys_documentation element="u_string_3" label="Requested by" language="en" table="x_406737_my_app_ticket_system">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>sys_class_name</element>
+            <element>u_string_3</element>
             <help/>
             <hint/>
-            <label>Class</label>
+            <label>Requested by</label>
             <language>en</language>
-            <name>x_406737_my_app_tickets</name>
-            <plural>Class</plural>
+            <name>x_406737_my_app_ticket_system</name>
+            <plural>Requested by</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-18 13:49:45</sys_created_on>
-            <sys_id>4e791261db710010bbeac4ab0b9619ab</sys_id>
+            <sys_created_on>2019-12-18 17:37:57</sys_created_on>
+            <sys_id>f8bd4b21db350010bbeac4ab0b961978</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Class</sys_name>
+            <sys_name>Requested by</sys_name>
             <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
             <sys_policy/>
             <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
-            <sys_update_name>sys_documentation_x_406737_my_app_tickets_sys_class_name_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_406737_my_app_ticket_system_u_string_3_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-18 13:49:45</sys_updated_on>
+            <sys_updated_on>2019-12-18 17:37:57</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
