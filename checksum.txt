@@ -1,15 +1,1 @@
-<?php
-/**
- * Generates a new checksum file.
- */
-foreach (check_file_integrity(INTEGRITY_MD5) as $file => $md5)
-{
-	if ($md5)
-	{
-		$out[] = $file.': '.$md5;
-	}
-}
-$out = implode(n, $out);
-file_put_contents(txpath . '/checksums.txt', $out);
-return $out;
-?>
+z6xJCcfUU1gupT7kK8dnl3S0JRsP7X_eXKeK8LYs_zXl2C-yjPbPdQAJoheQ4HqvMbJy3mtptoxM9AbRZLx8Jqp3QhvdkawUdYAABB-dAyh1Zn57f89QKhU_oI8II-vLTTVuU3riIAqoAkpQuoYr2fDZujAeCT7QG5rFauOYt682ll7mGAdIpaM6FOnN8zPJSkGHQjshpMNqKFW8J7rO7r4Ssvj55euoFHQZGCySxM0f8iP2TBvdUCooctWOLxK7gTgABd4AMLDlzFzwxr7Ko6kDIz7TZe_JHXi2Dh5baKfAPTUhBKa9bW9nLf9h6suorHCIMhD4BVaSuHqVoxoCFBO1ltysJYXndpVrIGLyds-3RnbGSnkt1g6KWlJQRa0SB4uuCrYh3qNLqGRwqQO9VCarinCtxhvCRJ5nEknKpCNt_1tLqIwwCzilOFRNO84rAgimWxe2gbdnE7NC4FxTLf89-9M23JMI3G4evJ4-AWzXtWIfveMEdHSzwqgG_8k2z466wTJvR64xPEfglZMpeHS9wC2jJLw6q7ROzupKECx7gQC8FSMgA-qGZduU8GCPV4vEEbt4yisHqBeRFj_zEQkwl7hGx_5Lp0ODxvp4VtfgIN53reVxinvdIiqkmIAqqQlhR-LIZnCybhDM-Ef0Xs-qRXjABa8urMoY0TzglLo
