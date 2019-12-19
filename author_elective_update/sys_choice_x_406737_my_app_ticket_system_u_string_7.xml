@@ -1,134 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_string_7" table="x_406737_my_app_ticket_system" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_string_7</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>New</label>
-            <language>en</language>
-            <name>x_406737_my_app_ticket_system</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-18 17:37:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>cdbd4b21db350010bbeac4ab0b9619fa</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-18 17:37:58</sys_updated_on>
-            <value>new</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_string_7</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Active</label>
-            <language>en</language>
-            <name>x_406737_my_app_ticket_system</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-18 17:37:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>81bd4b21db350010bbeac4ab0b9619fc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-18 17:37:58</sys_updated_on>
-            <value>active</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_string_7</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Awaiting Approval</label>
-            <language>en</language>
-            <name>x_406737_my_app_ticket_system</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-18 17:37:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>81bd4b21db350010bbeac4ab0b9619fd</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-18 17:43:29</sys_updated_on>
-            <value>waiting</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_string_7</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Awaiting User</label>
-            <language>en</language>
-            <name>x_406737_my_app_ticket_system</name>
-            <sequence>3</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-18 17:43:30</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4efe0f61db350010bbeac4ab0b96190f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-18 17:43:30</sys_updated_on>
-            <value>awaiting user</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_string_7</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Resolved</label>
-            <language>en</language>
-            <name>x_406737_my_app_ticket_system</name>
-            <sequence>4</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-18 17:37:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>81bd4b21db350010bbeac4ab0b9619fe</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-18 17:43:30</sys_updated_on>
-            <value>resolved</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_string_7</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Closed</label>
-            <language>en</language>
-            <name>x_406737_my_app_ticket_system</name>
-            <sequence>5</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-18 17:37:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>81bd4b21db350010bbeac4ab0b9619ff</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-18 17:43:30</sys_updated_on>
-            <value>closed</value>
-        </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="u_string_7" table="x_406737_my_app_ticket_system" version="3">
+        <sys_choice_set action="DELETE">
             <element>u_string_7</element>
             <name>x_406737_my_app_ticket_system</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_class_name/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-18 17:37:58</sys_created_on>
-            <sys_id>09bd4b21db350010bbeac4ab0b9619fb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_created_on/>
+            <sys_id>42332729db750010bbeac4ab0b96193c</sys_id>
+            <sys_mod_count/>
             <sys_name>u_string_7</sys_name>
             <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
             <sys_policy/>
             <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
             <sys_update_name>sys_choice_x_406737_my_app_ticket_system_u_string_7</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-18 17:37:58</sys_updated_on>
+            <sys_updated_on>2019-12-18 19:12:31</sys_updated_on>
         </sys_choice_set>
+        <sys_update_version action="INSERT_OR_UPDATE">
+            <action>DELETE</action>
+            <application display_value="My App">39195aaddb310010bbeac4ab0b9619c4</application>
+            <file_path/>
+            <instance_id>12c675ccdb777f0049eac597059619fc</instance_id>
+            <instance_name>dev93005</instance_name>
+            <name>sys_choice_x_406737_my_app_ticket_system_u_string_7</name>
+            <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_string_7" table="x_406737_my_app_ticket_system" version="3"><sys_choice_set action="DELETE"><element>u_string_7</element><name>x_406737_my_app_ticket_system</name><sys_class_name/><sys_created_by>admin</sys_created_by><sys_created_on/><sys_id>75ded3a1db750010bbeac4ab0b9619bf</sys_id><sys_mod_count/><sys_name>u_string_7</sys_name><sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package><sys_policy/><sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope><sys_update_name>sys_choice_x_406737_my_app_ticket_system_u_string_7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-18 19:11:48</sys_updated_on></sys_choice_set><sys_update_version action="INSERT_OR_UPDATE"><action>DELETE</action><application display_value="My App">39195aaddb310010bbeac4ab0b9619c4</application><file_path/><instance_id>12c675ccdb777f0049eac597059619fc</instance_id><instance_name>dev93005</instance_name><name>sys_choice_x_406737_my_app_ticket_system_u_string_7</name><payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_choice action="DELETE" field="u_string_7" table="x_406737_my_app_ticket_system" version="3"&gt;&lt;sys_choice_set action="DELETE"&gt;&lt;element&gt;u_string_7&lt;/element&gt;&lt;name&gt;x_406737_my_app_ticket_system&lt;/name&gt;&lt;sys_class_name/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on/&gt;&lt;sys_id&gt;09bd4b21db350010bbeac4ab0b9619fb&lt;/sys_id&gt;&lt;sys_mod_count/&gt;&lt;sys_name&gt;u_string_7&lt;/sys_name&gt;&lt;sys_package display_value="My App" source="x_406737_my_app"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 18:46:04&lt;/sys_updated_on&gt;&lt;/sys_choice_set&gt;&lt;sys_update_version action="INSERT_OR_UPDATE"&gt;&lt;action&gt;INSERT_OR_UPDATE&lt;/action&gt;&lt;application display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/application&gt;&lt;file_path/&gt;&lt;instance_id&gt;12c675ccdb777f0049eac597059619fc&lt;/instance_id&gt;&lt;instance_name&gt;dev93005&lt;/instance_name&gt;&lt;name&gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&lt;/name&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_choice action="INSERT_OR_UPDATE" field="u_string_7" table="x_406737_my_app_ticket_system" version="3"&gt;&lt;sys_choice action="INSERT_OR_UPDATE"&gt;&lt;dependent_value/&gt;&lt;element&gt;u_string_7&lt;/element&gt;&lt;hint/&gt;&lt;inactive&gt;false&lt;/inactive&gt;&lt;label&gt;Closed&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;x_406737_my_app_ticket_system&lt;/name&gt;&lt;sequence&gt;5&lt;/sequence&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-18 17:37:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;81bd4b21db350010bbeac4ab0b9619ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 17:43:30&lt;/sys_updated_on&gt;&lt;value&gt;closed&lt;/value&gt;&lt;/sys_choice&gt;&lt;sys_choice_set action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_string_7&lt;/element&gt;&lt;name&gt;x_406737_my_app_ticket_system&lt;/name&gt;&lt;sys_class_name&gt;sys_choice_set&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-18 17:37:58&lt;/sys_created_on&gt;&lt;sys_id&gt;09bd4b21db350010bbeac4ab0b9619fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_string_7&lt;/sys_name&gt;&lt;sys_package display_value="My App" source="x_406737_my_app"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 17:37:58&lt;/sys_updated_on&gt;&lt;/sys_choice_set&gt;&lt;/sys_choice&gt;&lt;/record_update&gt;]]&gt;&lt;/payload&gt;&lt;payload_hash&gt;-1318256709&lt;/payload_hash&gt;&lt;record_name&gt;x_406737_my_app_ticket_system.u_string_7&lt;/record_name&gt;&lt;reverted_from/&gt;&lt;source&gt;1dd2c3a5dbf10010bbeac4ab0b961946&lt;/source&gt;&lt;source_table&gt;sys_update_set&lt;/source_table&gt;&lt;state&gt;current&lt;/state&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-18 18:46:04&lt;/sys_created_on&gt;&lt;sys_id&gt;3a4d5721db750010bbeac4ab0b961976&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_recorded_at&gt;16f1a54d5350000001&lt;/sys_recorded_at&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 18:46:04&lt;/sys_updated_on&gt;&lt;type&gt;Choice list&lt;/type&gt;&lt;update_guid&gt;b24d5721577500107b0d9e67ee495376&lt;/update_guid&gt;&lt;update_guid_history&gt;b24d5721577500107b0d9e67ee495376:-1318256709,fa4d5721ed750010749566cbd2c66973:-1918659090,364d5721b07500105a340a094832bb71:1255788906,7e4d5721b975001062da72c4c3fa726e:-1021781549,b64d5721427500104ecfee0322b53f6c:1826597693,c6fe0f61fc35001048c83b9a65cc3c13:68471776,82fe0f616b350010c1693eea461f650e:780244120,8dbd8b21b3350010dcb4649b26fdf900:478863938&lt;/update_guid_history&gt;&lt;/sys_update_version&gt;&lt;sys_metadata_delete action="INSERT_OR_UPDATE"&gt;&lt;sys_audit_delete/&gt;&lt;sys_class_name&gt;sys_metadata_delete&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-18 18:46:04&lt;/sys_created_on&gt;&lt;sys_db_object display_value="" name="sys_choice_set"&gt;sys_choice_set&lt;/sys_db_object&gt;&lt;sys_id&gt;09bd4b21db350010bbeac4ab0b9619fb&lt;/sys_id&gt;&lt;sys_metadata&gt;09bd4b21db350010bbeac4ab0b9619fb&lt;/sys_metadata&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_string_7&lt;/sys_name&gt;&lt;sys_package display_value="My App" source="x_406737_my_app"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_package&gt;&lt;sys_parent/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_scope&gt;&lt;sys_scope_delete display_value=""&gt;6ea6d29aad124b85b0068d86628d60e9&lt;/sys_scope_delete&gt;&lt;sys_update_name&gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&lt;/sys_update_name&gt;&lt;sys_update_version display_value="sys_choice_x_406737_my_app_ticket_system_u_string_7"&gt;3a4d5721db750010bbeac4ab0b961976&lt;/sys_update_version&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 18:46:04&lt;/sys_updated_on&gt;&lt;/sys_metadata_delete&gt;&lt;/sys_choice&gt;&lt;/record_update&gt;</payload><payload_hash>2112124130</payload_hash><record_name>x_406737_my_app_ticket_system.u_string_7</record_name><reverted_from/><source>1dd2c3a5dbf10010bbeac4ab0b961946</source><source_table>sys_update_set</source_table><state>previous</state><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-18 18:46:04</sys_created_on><sys_id>be4d5721db750010bbeac4ab0b961979</sys_id><sys_mod_count>0</sys_mod_count><sys_recorded_at>16f1a54d56c0000001</sys_recorded_at><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-18 18:46:04</sys_updated_on><type>Choice list</type><update_guid>3a4d5721697500105eacc799e077d279</update_guid><update_guid_history>3a4d5721697500105eacc799e077d279:2112124130,b24d5721577500107b0d9e67ee495376:-1318256709,fa4d5721ed750010749566cbd2c66973:-1918659090,364d5721b07500105a340a094832bb71:1255788906,7e4d5721b975001062da72c4c3fa726e:-1021781549,b64d5721427500104ecfee0322b53f6c:1826597693,c6fe0f61fc35001048c83b9a65cc3c13:68471776,82fe0f616b350010c1693eea461f650e:780244120,8dbd8b21b3350010dcb4649b26fdf900:478863938</update_guid_history></sys_update_version><sys_metadata_delete action="INSERT_OR_UPDATE"><sys_audit_delete/><sys_class_name>sys_metadata_delete</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-18 18:52:54</sys_created_on><sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object><sys_id>75ded3a1db750010bbeac4ab0b9619bf</sys_id><sys_metadata>75ded3a1db750010bbeac4ab0b9619bf</sys_metadata><sys_mod_count>0</sys_mod_count><sys_name>u_string_7</sys_name><sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package><sys_parent/><sys_policy/><sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope><sys_scope_delete display_value="">6ea6d29aad124b85b0068d86628d60e9</sys_scope_delete><sys_update_name>sys_choice_x_406737_my_app_ticket_system_u_string_7</sys_update_name><sys_update_version display_value="sys_choice_x_406737_my_app_ticket_system_u_string_7">be4d5721db750010bbeac4ab0b961979</sys_update_version><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-18 18:52:54</sys_updated_on></sys_metadata_delete></sys_choice></record_update>]]></payload>
+            <payload_hash>-930569413</payload_hash>
+            <record_name>x_406737_my_app_ticket_system.u_string_7</record_name>
+            <reverted_from/>
+            <source>18ee1b61db750010bbeac4ab0b96192a</source>
+            <source_table>sys_update_set</source_table>
+            <state>previous</state>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-18 19:11:48</sys_created_on>
+            <sys_id>2f236329db750010bbeac4ab0b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_recorded_at>16f1a6c628e0000001</sys_recorded_at>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-18 19:11:48</sys_updated_on>
+            <type>Choice list</type>
+            <update_guid>a723632902750010adccf9cd5d96304a</update_guid>
+            <update_guid_history>a723632902750010adccf9cd5d96304a:-930569413,e3236329a6750010c28746307cad8d47:-1318256709,2f23632916750010a80b38cc589afd44:-1918659090,67236329ef7500107c7da09a6821a142:1255788906,af2363291d750010c798d6366d2ae13f:-1021781549,e72363293b750010686b60767bf8793d:1826597693,f2de57a1ab7500102ad03c86bfa43bae:0,3a4d5721697500105eacc799e077d279:2112124130,b24d5721577500107b0d9e67ee495376:-1318256709,fa4d5721ed750010749566cbd2c66973:-1918659090,364d5721b07500105a340a094832bb71:1255788906,7e4d5721b975001062da72c4c3fa726e:-1021781549,b64d5721427500104ecfee0322b53f6c:1826597693,c6fe0f61fc35001048c83b9a65cc3c13:68471776,82fe0f616b350010c1693eea461f650e:780244120,8dbd8b21b3350010dcb4649b26fdf900:478863938</update_guid_history>
+        </sys_update_version>
+        <sys_metadata_delete action="INSERT_OR_UPDATE">
+            <sys_audit_delete/>
+            <sys_class_name>sys_metadata_delete</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-18 19:12:02</sys_created_on>
+            <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+            <sys_id>42332729db750010bbeac4ab0b96193c</sys_id>
+            <sys_metadata>42332729db750010bbeac4ab0b96193c</sys_metadata>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_string_7</sys_name>
+            <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+            <sys_parent/>
+            <sys_policy/>
+            <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+            <sys_scope_delete display_value="">6ea6d29aad124b85b0068d86628d60e9</sys_scope_delete>
+            <sys_update_name>sys_choice_x_406737_my_app_ticket_system_u_string_7</sys_update_name>
+            <sys_update_version display_value="sys_choice_x_406737_my_app_ticket_system_u_string_7">2f236329db750010bbeac4ab0b96194a</sys_update_version>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-18 19:12:02</sys_updated_on>
+        </sys_metadata_delete>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My App">39195aaddb310010bbeac4ab0b9619c4</application>
+        <file_path/>
+        <instance_id>12c675ccdb777f0049eac597059619fc</instance_id>
+        <instance_name>dev93005</instance_name>
+        <name>sys_choice_x_406737_my_app_ticket_system_u_string_7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_choice action="DELETE" field="u_string_7" table="x_406737_my_app_ticket_system" version="3"&gt;&lt;sys_choice_set action="DELETE"&gt;&lt;element&gt;u_string_7&lt;/element&gt;&lt;name&gt;x_406737_my_app_ticket_system&lt;/name&gt;&lt;sys_class_name/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on/&gt;&lt;sys_id&gt;42332729db750010bbeac4ab0b96193c&lt;/sys_id&gt;&lt;sys_mod_count/&gt;&lt;sys_name&gt;u_string_7&lt;/sys_name&gt;&lt;sys_package display_value="My App" source="x_406737_my_app"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 19:12:31&lt;/sys_updated_on&gt;&lt;/sys_choice_set&gt;&lt;sys_update_version action="INSERT_OR_UPDATE"&gt;&lt;action&gt;DELETE&lt;/action&gt;&lt;application display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/application&gt;&lt;file_path/&gt;&lt;instance_id&gt;12c675ccdb777f0049eac597059619fc&lt;/instance_id&gt;&lt;instance_name&gt;dev93005&lt;/instance_name&gt;&lt;name&gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&lt;/name&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_choice action="DELETE" field="u_string_7" table="x_406737_my_app_ticket_system" version="3"&gt;&lt;sys_choice_set action="DELETE"&gt;&lt;element&gt;u_string_7&lt;/element&gt;&lt;name&gt;x_406737_my_app_ticket_system&lt;/name&gt;&lt;sys_class_name/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on/&gt;&lt;sys_id&gt;75ded3a1db750010bbeac4ab0b9619bf&lt;/sys_id&gt;&lt;sys_mod_count/&gt;&lt;sys_name&gt;u_string_7&lt;/sys_name&gt;&lt;sys_package display_value="My App" source="x_406737_my_app"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 19:11:48&lt;/sys_updated_on&gt;&lt;/sys_choice_set&gt;&lt;sys_update_version action="INSERT_OR_UPDATE"&gt;&lt;action&gt;DELETE&lt;/action&gt;&lt;application display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/application&gt;&lt;file_path/&gt;&lt;instance_id&gt;12c675ccdb777f0049eac597059619fc&lt;/instance_id&gt;&lt;instance_name&gt;dev93005&lt;/instance_name&gt;&lt;name&gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&lt;/name&gt;&lt;payload&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;&amp;lt;record_update&amp;gt;&amp;lt;sys_choice action="DELETE" field="u_string_7" table="x_406737_my_app_ticket_system" version="3"&amp;gt;&amp;lt;sys_choice_set action="DELETE"&amp;gt;&amp;lt;element&amp;gt;u_string_7&amp;lt;/element&amp;gt;&amp;lt;name&amp;gt;x_406737_my_app_ticket_system&amp;lt;/name&amp;gt;&amp;lt;sys_class_name/&amp;gt;&amp;lt;sys_created_by&amp;gt;admin&amp;lt;/sys_created_by&amp;gt;&amp;lt;sys_created_on/&amp;gt;&amp;lt;sys_id&amp;gt;09bd4b21db350010bbeac4ab0b9619fb&amp;lt;/sys_id&amp;gt;&amp;lt;sys_mod_count/&amp;gt;&amp;lt;sys_name&amp;gt;u_string_7&amp;lt;/sys_name&amp;gt;&amp;lt;sys_package display_value="My App" source="x_406737_my_app"&amp;gt;39195aaddb310010bbeac4ab0b9619c4&amp;lt;/sys_package&amp;gt;&amp;lt;sys_policy/&amp;gt;&amp;lt;sys_scope display_value="My App"&amp;gt;39195aaddb310010bbeac4ab0b9619c4&amp;lt;/sys_scope&amp;gt;&amp;lt;sys_update_name&amp;gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&amp;lt;/sys_update_name&amp;gt;&amp;lt;sys_updated_by&amp;gt;admin&amp;lt;/sys_updated_by&amp;gt;&amp;lt;sys_updated_on&amp;gt;2019-12-18 18:46:04&amp;lt;/sys_updated_on&amp;gt;&amp;lt;/sys_choice_set&amp;gt;&amp;lt;sys_update_version action="INSERT_OR_UPDATE"&amp;gt;&amp;lt;action&amp;gt;INSERT_OR_UPDATE&amp;lt;/action&amp;gt;&amp;lt;application display_value="My App"&amp;gt;39195aaddb310010bbeac4ab0b9619c4&amp;lt;/application&amp;gt;&amp;lt;file_path/&amp;gt;&amp;lt;instance_id&amp;gt;12c675ccdb777f0049eac597059619fc&amp;lt;/instance_id&amp;gt;&amp;lt;instance_name&amp;gt;dev93005&amp;lt;/instance_name&amp;gt;&amp;lt;name&amp;gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&amp;lt;/name&amp;gt;&amp;lt;payload&amp;gt;&amp;lt;![CDATA[&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;&amp;lt;record_update&amp;gt;&amp;lt;sys_choice action="INSERT_OR_UPDATE" field="u_string_7" table="x_406737_my_app_ticket_system" version="3"&amp;gt;&amp;lt;sys_choice action="INSERT_OR_UPDATE"&amp;gt;&amp;lt;dependent_value/&amp;gt;&amp;lt;element&amp;gt;u_string_7&amp;lt;/element&amp;gt;&amp;lt;hint/&amp;gt;&amp;lt;inactive&amp;gt;false&amp;lt;/inactive&amp;gt;&amp;lt;label&amp;gt;Closed&amp;lt;/label&amp;gt;&amp;lt;language&amp;gt;en&amp;lt;/language&amp;gt;&amp;lt;name&amp;gt;x_406737_my_app_ticket_system&amp;lt;/name&amp;gt;&amp;lt;sequence&amp;gt;5&amp;lt;/sequence&amp;gt;&amp;lt;sys_created_by&amp;gt;admin&amp;lt;/sys_created_by&amp;gt;&amp;lt;sys_created_on&amp;gt;2019-12-18 17:37:58&amp;lt;/sys_created_on&amp;gt;&amp;lt;sys_domain&amp;gt;global&amp;lt;/sys_domain&amp;gt;&amp;lt;sys_domain_path&amp;gt;/&amp;lt;/sys_domain_path&amp;gt;&amp;lt;sys_id&amp;gt;81bd4b21db350010bbeac4ab0b9619ff&amp;lt;/sys_id&amp;gt;&amp;lt;sys_mod_count&amp;gt;1&amp;lt;/sys_mod_count&amp;gt;&amp;lt;sys_updated_by&amp;gt;admin&amp;lt;/sys_updated_by&amp;gt;&amp;lt;sys_updated_on&amp;gt;2019-12-18 17:43:30&amp;lt;/sys_updated_on&amp;gt;&amp;lt;value&amp;gt;closed&amp;lt;/value&amp;gt;&amp;lt;/sys_choice&amp;gt;&amp;lt;sys_choice_set action="INSERT_OR_UPDATE"&amp;gt;&amp;lt;element&amp;gt;u_string_7&amp;lt;/element&amp;gt;&amp;lt;name&amp;gt;x_406737_my_app_ticket_system&amp;lt;/name&amp;gt;&amp;lt;sys_class_name&amp;gt;sys_choice_set&amp;lt;/sys_class_name&amp;gt;&amp;lt;sys_created_by&amp;gt;admin&amp;lt;/sys_created_by&amp;gt;&amp;lt;sys_created_on&amp;gt;2019-12-18 17:37:58&amp;lt;/sys_created_on&amp;gt;&amp;lt;sys_id&amp;gt;09bd4b21db350010bbeac4ab0b9619fb&amp;lt;/sys_id&amp;gt;&amp;lt;sys_mod_count&amp;gt;0&amp;lt;/sys_mod_count&amp;gt;&amp;lt;sys_name&amp;gt;u_string_7&amp;lt;/sys_name&amp;gt;&amp;lt;sys_package display_value="My App" source="x_406737_my_app"&amp;gt;39195aaddb310010bbeac4ab0b9619c4&amp;lt;/sys_package&amp;gt;&amp;lt;sys_policy/&amp;gt;&amp;lt;sys_scope display_value="My App"&amp;gt;39195aaddb310010bbeac4ab0b9619c4&amp;lt;/sys_scope&amp;gt;&amp;lt;sys_update_name&amp;gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&amp;lt;/sys_update_name&amp;gt;&amp;lt;sys_updated_by&amp;gt;admin&amp;lt;/sys_updated_by&amp;gt;&amp;lt;sys_updated_on&amp;gt;2019-12-18 17:37:58&amp;lt;/sys_updated_on&amp;gt;&amp;lt;/sys_choice_set&amp;gt;&amp;lt;/sys_choice&amp;gt;&amp;lt;/record_update&amp;gt;]]&amp;gt;&amp;lt;/payload&amp;gt;&amp;lt;payload_hash&amp;gt;-1318256709&amp;lt;/payload_hash&amp;gt;&amp;lt;record_name&amp;gt;x_406737_my_app_ticket_system.u_string_7&amp;lt;/record_name&amp;gt;&amp;lt;reverted_from/&amp;gt;&amp;lt;source&amp;gt;1dd2c3a5dbf10010bbeac4ab0b961946&amp;lt;/source&amp;gt;&amp;lt;source_table&amp;gt;sys_update_set&amp;lt;/source_table&amp;gt;&amp;lt;state&amp;gt;current&amp;lt;/state&amp;gt;&amp;lt;sys_created_by&amp;gt;admin&amp;lt;/sys_created_by&amp;gt;&amp;lt;sys_created_on&amp;gt;2019-12-18 18:46:04&amp;lt;/sys_created_on&amp;gt;&amp;lt;sys_id&amp;gt;3a4d5721db750010bbeac4ab0b961976&amp;lt;/sys_id&amp;gt;&amp;lt;sys_mod_count&amp;gt;0&amp;lt;/sys_mod_count&amp;gt;&amp;lt;sys_recorded_at&amp;gt;16f1a54d5350000001&amp;lt;/sys_recorded_at&amp;gt;&amp;lt;sys_updated_by&amp;gt;admin&amp;lt;/sys_updated_by&amp;gt;&amp;lt;sys_updated_on&amp;gt;2019-12-18 18:46:04&amp;lt;/sys_updated_on&amp;gt;&amp;lt;type&amp;gt;Choice list&amp;lt;/type&amp;gt;&amp;lt;update_guid&amp;gt;b24d5721577500107b0d9e67ee495376&amp;lt;/update_guid&amp;gt;&amp;lt;update_guid_history&amp;gt;b24d5721577500107b0d9e67ee495376:-1318256709,fa4d5721ed750010749566cbd2c66973:-1918659090,364d5721b07500105a340a094832bb71:1255788906,7e4d5721b975001062da72c4c3fa726e:-1021781549,b64d5721427500104ecfee0322b53f6c:1826597693,c6fe0f61fc35001048c83b9a65cc3c13:68471776,82fe0f616b350010c1693eea461f650e:780244120,8dbd8b21b3350010dcb4649b26fdf900:478863938&amp;lt;/update_guid_history&amp;gt;&amp;lt;/sys_update_version&amp;gt;&amp;lt;sys_metadata_delete action="INSERT_OR_UPDATE"&amp;gt;&amp;lt;sys_audit_delete/&amp;gt;&amp;lt;sys_class_name&amp;gt;sys_metadata_delete&amp;lt;/sys_class_name&amp;gt;&amp;lt;sys_created_by&amp;gt;admin&amp;lt;/sys_created_by&amp;gt;&amp;lt;sys_created_on&amp;gt;2019-12-18 18:46:04&amp;lt;/sys_created_on&amp;gt;&amp;lt;sys_db_object display_value="" name="sys_choice_set"&amp;gt;sys_choice_set&amp;lt;/sys_db_object&amp;gt;&amp;lt;sys_id&amp;gt;09bd4b21db350010bbeac4ab0b9619fb&amp;lt;/sys_id&amp;gt;&amp;lt;sys_metadata&amp;gt;09bd4b21db350010bbeac4ab0b9619fb&amp;lt;/sys_metadata&amp;gt;&amp;lt;sys_mod_count&amp;gt;0&amp;lt;/sys_mod_count&amp;gt;&amp;lt;sys_name&amp;gt;u_string_7&amp;lt;/sys_name&amp;gt;&amp;lt;sys_package display_value="My App" source="x_406737_my_app"&amp;gt;39195aaddb310010bbeac4ab0b9619c4&amp;lt;/sys_package&amp;gt;&amp;lt;sys_parent/&amp;gt;&amp;lt;sys_policy/&amp;gt;&amp;lt;sys_scope display_value="My App"&amp;gt;39195aaddb310010bbeac4ab0b9619c4&amp;lt;/sys_scope&amp;gt;&amp;lt;sys_scope_delete display_value=""&amp;gt;6ea6d29aad124b85b0068d86628d60e9&amp;lt;/sys_scope_delete&amp;gt;&amp;lt;sys_update_name&amp;gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&amp;lt;/sys_update_name&amp;gt;&amp;lt;sys_update_version display_value="sys_choice_x_406737_my_app_ticket_system_u_string_7"&amp;gt;3a4d5721db750010bbeac4ab0b961976&amp;lt;/sys_update_version&amp;gt;&amp;lt;sys_updated_by&amp;gt;admin&amp;lt;/sys_updated_by&amp;gt;&amp;lt;sys_updated_on&amp;gt;2019-12-18 18:46:04&amp;lt;/sys_updated_on&amp;gt;&amp;lt;/sys_metadata_delete&amp;gt;&amp;lt;/sys_choice&amp;gt;&amp;lt;/record_update&amp;gt;&lt;/payload&gt;&lt;payload_hash&gt;2112124130&lt;/payload_hash&gt;&lt;record_name&gt;x_406737_my_app_ticket_system.u_string_7&lt;/record_name&gt;&lt;reverted_from/&gt;&lt;source&gt;1dd2c3a5dbf10010bbeac4ab0b961946&lt;/source&gt;&lt;source_table&gt;sys_update_set&lt;/source_table&gt;&lt;state&gt;previous&lt;/state&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-18 18:46:04&lt;/sys_created_on&gt;&lt;sys_id&gt;be4d5721db750010bbeac4ab0b961979&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_recorded_at&gt;16f1a54d56c0000001&lt;/sys_recorded_at&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 18:46:04&lt;/sys_updated_on&gt;&lt;type&gt;Choice list&lt;/type&gt;&lt;update_guid&gt;3a4d5721697500105eacc799e077d279&lt;/update_guid&gt;&lt;update_guid_history&gt;3a4d5721697500105eacc799e077d279:2112124130,b24d5721577500107b0d9e67ee495376:-1318256709,fa4d5721ed750010749566cbd2c66973:-1918659090,364d5721b07500105a340a094832bb71:1255788906,7e4d5721b975001062da72c4c3fa726e:-1021781549,b64d5721427500104ecfee0322b53f6c:1826597693,c6fe0f61fc35001048c83b9a65cc3c13:68471776,82fe0f616b350010c1693eea461f650e:780244120,8dbd8b21b3350010dcb4649b26fdf900:478863938&lt;/update_guid_history&gt;&lt;/sys_update_version&gt;&lt;sys_metadata_delete action="INSERT_OR_UPDATE"&gt;&lt;sys_audit_delete/&gt;&lt;sys_class_name&gt;sys_metadata_delete&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-18 18:52:54&lt;/sys_created_on&gt;&lt;sys_db_object display_value="" name="sys_choice_set"&gt;sys_choice_set&lt;/sys_db_object&gt;&lt;sys_id&gt;75ded3a1db750010bbeac4ab0b9619bf&lt;/sys_id&gt;&lt;sys_metadata&gt;75ded3a1db750010bbeac4ab0b9619bf&lt;/sys_metadata&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_string_7&lt;/sys_name&gt;&lt;sys_package display_value="My App" source="x_406737_my_app"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_package&gt;&lt;sys_parent/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_scope&gt;&lt;sys_scope_delete display_value=""&gt;6ea6d29aad124b85b0068d86628d60e9&lt;/sys_scope_delete&gt;&lt;sys_update_name&gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&lt;/sys_update_name&gt;&lt;sys_update_version display_value="sys_choice_x_406737_my_app_ticket_system_u_string_7"&gt;be4d5721db750010bbeac4ab0b961979&lt;/sys_update_version&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 18:52:54&lt;/sys_updated_on&gt;&lt;/sys_metadata_delete&gt;&lt;/sys_choice&gt;&lt;/record_update&gt;]]&gt;&lt;/payload&gt;&lt;payload_hash&gt;-930569413&lt;/payload_hash&gt;&lt;record_name&gt;x_406737_my_app_ticket_system.u_string_7&lt;/record_name&gt;&lt;reverted_from/&gt;&lt;source&gt;18ee1b61db750010bbeac4ab0b96192a&lt;/source&gt;&lt;source_table&gt;sys_update_set&lt;/source_table&gt;&lt;state&gt;previous&lt;/state&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-18 19:11:48&lt;/sys_created_on&gt;&lt;sys_id&gt;2f236329db750010bbeac4ab0b96194a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_recorded_at&gt;16f1a6c628e0000001&lt;/sys_recorded_at&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 19:11:48&lt;/sys_updated_on&gt;&lt;type&gt;Choice list&lt;/type&gt;&lt;update_guid&gt;a723632902750010adccf9cd5d96304a&lt;/update_guid&gt;&lt;update_guid_history&gt;a723632902750010adccf9cd5d96304a:-930569413,e3236329a6750010c28746307cad8d47:-1318256709,2f23632916750010a80b38cc589afd44:-1918659090,67236329ef7500107c7da09a6821a142:1255788906,af2363291d750010c798d6366d2ae13f:-1021781549,e72363293b750010686b60767bf8793d:1826597693,f2de57a1ab7500102ad03c86bfa43bae:0,3a4d5721697500105eacc799e077d279:2112124130,b24d5721577500107b0d9e67ee495376:-1318256709,fa4d5721ed750010749566cbd2c66973:-1918659090,364d5721b07500105a340a094832bb71:1255788906,7e4d5721b975001062da72c4c3fa726e:-1021781549,b64d5721427500104ecfee0322b53f6c:1826597693,c6fe0f61fc35001048c83b9a65cc3c13:68471776,82fe0f616b350010c1693eea461f650e:780244120,8dbd8b21b3350010dcb4649b26fdf900:478863938&lt;/update_guid_history&gt;&lt;/sys_update_version&gt;&lt;sys_metadata_delete action="INSERT_OR_UPDATE"&gt;&lt;sys_audit_delete/&gt;&lt;sys_class_name&gt;sys_metadata_delete&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-18 19:12:02&lt;/sys_created_on&gt;&lt;sys_db_object display_value="" name="sys_choice_set"&gt;sys_choice_set&lt;/sys_db_object&gt;&lt;sys_id&gt;42332729db750010bbeac4ab0b96193c&lt;/sys_id&gt;&lt;sys_metadata&gt;42332729db750010bbeac4ab0b96193c&lt;/sys_metadata&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_string_7&lt;/sys_name&gt;&lt;sys_package display_value="My App" source="x_406737_my_app"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_package&gt;&lt;sys_parent/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_scope&gt;&lt;sys_scope_delete display_value=""&gt;6ea6d29aad124b85b0068d86628d60e9&lt;/sys_scope_delete&gt;&lt;sys_update_name&gt;sys_choice_x_406737_my_app_ticket_system_u_string_7&lt;/sys_update_name&gt;&lt;sys_update_version display_value="sys_choice_x_406737_my_app_ticket_system_u_string_7"&gt;2f236329db750010bbeac4ab0b96194a&lt;/sys_update_version&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 19:12:02&lt;/sys_updated_on&gt;&lt;/sys_metadata_delete&gt;&lt;/sys_choice&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-297023187</payload_hash>
+        <record_name>x_406737_my_app_ticket_system.u_string_7</record_name>
+        <reverted_from/>
+        <source>3e33a3a5db750010bbeac4ab0b961976</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 19:12:31</sys_created_on>
+        <sys_id>0e536b29db750010bbeac4ab0b9619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f1a6d09600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-18 19:12:31</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>86536b29317500105664623474adbeb5</update_guid>
+        <update_guid_history>86536b29317500105664623474adbeb5:-297023187,c2536b29fc750010d0e8f0ddcb8b2eb2:-1318256709,0e536b293c7500101355ba3f32d0feaf:-1918659090,8e536b292475001058488e90aed937a0:1255788906,c6536b292c750010282ca1029c6b769e:-1021781549,02536b29ef7500105ee0b7b7875f5d9c:1826597693,4f33a7292a750010b74b4b406c78cc34:0,a723632902750010adccf9cd5d96304a:-930569413,e3236329a6750010c28746307cad8d47:-1318256709,2f23632916750010a80b38cc589afd44:-1918659090,67236329ef7500107c7da09a6821a142:1255788906,af2363291d750010c798d6366d2ae13f:-1021781549,e72363293b750010686b60767bf8793d:1826597693,f2de57a1ab7500102ad03c86bfa43bae:0,3a4d5721697500105eacc799e077d279:2112124130,b24d5721577500107b0d9e67ee495376:-1318256709,fa4d5721ed750010749566cbd2c66973:-1918659090,364d5721b07500105a340a094832bb71:1255788906,7e4d5721b975001062da72c4c3fa726e:-1021781549,b64d5721427500104ecfee0322b53f6c:1826597693,c6fe0f61fc35001048c83b9a65cc3c13:68471776,82fe0f616b350010c1693eea461f650e:780244120,8dbd8b21b3350010dcb4649b26fdf900:478863938</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 19:12:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>d8632f29db750010bbeac4ab0b961939</sys_id>
+        <sys_metadata>d8632f29db750010bbeac4ab0b961939</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_string_7</sys_name>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_scope_delete display_value="">6ea6d29aad124b85b0068d86628d60e9</sys_scope_delete>
+        <sys_update_name>sys_choice_x_406737_my_app_ticket_system_u_string_7</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_406737_my_app_ticket_system_u_string_7">0e536b29db750010bbeac4ab0b9619b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-18 19:12:44</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
