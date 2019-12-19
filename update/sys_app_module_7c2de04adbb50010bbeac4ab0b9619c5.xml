@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="My App">2899de21db710010bbeac4ab0b9619a5</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_406737_my_app_ticketing_system">u_status=active^ORu_status=awaiting approval^ORu_status=awaiting user^ORu_status=escalated^EQ<item display_value="Active" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="active"/>
+            <item display_value="Awaiting Approval" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="true" value="awaiting approval"/>
+            <item display_value="Awaiting User" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="true" value="awaiting user"/>
+            <item display_value="Escalated" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="true" value="escalated"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>Open tickets</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open Tickets</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_406737_my_app_ticketing_system</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin,user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 19:14:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c2de04adbb50010bbeac4ab0b9619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Tickets</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_update_name>sys_app_module_7c2de04adbb50010bbeac4ab0b9619c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 19:14:55</sys_updated_on>
+        <timeline_page/>
+        <title>Open Tickets</title>
+        <uncancelable>false</uncancelable>
+        <view_name>Open</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="My App">2899de21db710010bbeac4ab0b9619a5</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>All the tickets</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_406737_my_app_ticketing_system</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin,user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 13:22:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f1bc13f1db710010bbeac4ab0b961922</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_update_name>sys_app_module_f1bc13f1db710010bbeac4ab0b961922</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 19:06:09</sys_updated_on>
+        <timeline_page/>
+        <title>All</title>
+        <uncancelable>false</uncancelable>
+        <view_name>All</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My App">39195aaddb310010bbeac4ab0b9619c4</application>
+        <file_path/>
+        <instance_id>12c675ccdb777f0049eac597059619fc</instance_id>
+        <instance_name>dev93005</instance_name>
+        <name>sys_app_module_f1bc13f1db710010bbeac4ab0b961922</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="My App">2899de21db710010bbeac4ab0b9619a5</application><assessment/><device_type/><filter/><hint>All the tickets</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_406737_my_app_ticketing_system</name><order>200</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>admin,user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-19 13:22:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f1bc13f1db710010bbeac4ab0b961922</sys_id><sys_mod_count>1</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package><sys_policy/><sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope><sys_update_name>sys_app_module_f1bc13f1db710010bbeac4ab0b961922</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-19 19:06:09</sys_updated_on><timeline_page/><title>All</title><uncancelable>false</uncancelable><view_name>All</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1735068423</payload_hash>
+        <record_name>All</record_name>
+        <reverted_from/>
+        <source>aa6ae0c2dbb50010bbeac4ab0b96192d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 19:06:09</sys_created_on>
+        <sys_id>727be40adbb50010bbeac4ab0b96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f1f8d94150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 19:06:09</sys_updated_on>
+        <type>Module</type>
+        <update_guid>fa7be40aa2b50010e751775794945d6b</update_guid>
+        <update_guid_history>fa7be40aa2b50010e751775794945d6b:-1735068423,487ae046e7b500103c2933e8ec508868:0,156aac0655b5001097d4a9f2b92cc677:-2119630622,035ae80616b50010cd8efe226c98b600:0,3501648a36750010cd45451dadd7db84:0,ff80604a5375001043e08d674e891064:-2119630622,b180ec0a1e7500101deb3a8b5ea9456d:0,d3fd5446167500100295808315f910ab:0,79fdd046e5750010bbc97aa3570183fa:-2119630622,f7ed50467f7500103fc73e9c74f1afb6:0,949d18069b7500105808c98a53b6ccbd:0,2c6d9cc21075001053777e9ac6daffe2:-2119630622,2e5d1cc263750010c6965ee1facd4a6f:0,b4acdc82277500107c98fd1fadbc5c3e:0,bc6a544ec5350010273ee0dd1a87cc7d:-93408653,91ec13f1f3710010fcd87b7c07647544:-1293658881</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All">090c284adbb50010bbeac4ab0b96190e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 19:08:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>ab6146d18b774b0c906299887767c710</sys_id>
+        <sys_metadata>f1bc13f1db710010bbeac4ab0b961922</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_406737_my_app_ticketing_system</sys_name>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_scope_delete display_value="">6ea6d29aad124b85b0068d86628d60e9</sys_scope_delete>
+        <sys_update_name>sys_app_module_f1bc13f1db710010bbeac4ab0b961922</sys_update_name>
+        <sys_update_version display_value="sys_app_module_f1bc13f1db710010bbeac4ab0b961922">727be40adbb50010bbeac4ab0b96196c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 19:08:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -13,21 +13,10 @@
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_short_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="low" label="Priority" max_length="40" name="u_string_3" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
-                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
-                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="new" label="Status" max_length="40" name="u_string_4" type="string">
-            <choice>
-                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
-                <element inactive_on_update="false" label="Active" sequence="1" value="active"/>
-                <element inactive_on_update="false" label="Awaiting Approval" sequence="2" value="awaiting approval"/>
-                <element inactive_on_update="false" label="Awaiting User" sequence="3" value="awaiting user"/>
-                <element inactive_on_update="false" label="Resolved" sequence="4" value="resolved"/>
-                <element inactive_on_update="false" label="Closed" sequence="5" value="closed"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_string_6" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="255" name="u_string_full_utf8_7" type="string_full_utf8"/>
