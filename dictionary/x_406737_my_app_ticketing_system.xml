@@ -44,7 +44,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Updated By" max_length="40" name="u_updatedby" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Updated On" max_length="40" name="u_updated_on" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="What Needed" max_length="40" name="u_what_needed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="What Needed" max_length="40" name="u_what_needed" type="string" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="When Needed" max_length="40" name="u_when_needed" type="glide_date"/>
         <index name="index">
             <element name="sys_class_name"/>
