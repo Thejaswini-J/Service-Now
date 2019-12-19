@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>true</delete_access>
+        <extension_model/>
+        <is_extendable>true</is_extendable>
+        <label>Ticket System</label>
+        <live_feed_enabled>true</live_feed_enabled>
+        <name>x_406737_my_app_ticket_system</name>
+        <number_ref display_value="TIS">b803c725dbf10010bbeac4ab0b961953</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Tickets" name="x_406737_my_app_tickets">46791261db710010bbeac4ab0b96198f</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 16:50:28</sys_created_on>
+        <sys_id>9ad187e1dbf10010bbeac4ab0b9619c1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Ticket System</sys_name>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_update_name>sys_db_object_9ad187e1dbf10010bbeac4ab0b9619c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 13:01:40</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My App">39195aaddb310010bbeac4ab0b9619c4</application>
+        <file_path/>
+        <instance_id>12c675ccdb777f0049eac597059619fc</instance_id>
+        <instance_name>dev93005</instance_name>
+        <name>sys_db_object_9ad187e1dbf10010bbeac4ab0b9619c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>true</create_access_controls><delete_access>true</delete_access><extension_model/><is_extendable>true</is_extendable><label>Ticket System</label><live_feed_enabled>true</live_feed_enabled><name>x_406737_my_app_ticket_system</name><number_ref display_value="TIS">b803c725dbf10010bbeac4ab0b961953</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Tickets" name="x_406737_my_app_tickets">46791261db710010bbeac4ab0b96198f</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-18 16:50:28</sys_created_on><sys_id>9ad187e1dbf10010bbeac4ab0b9619c1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Ticket System</sys_name><sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package><sys_policy/><sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope><sys_update_name>sys_db_object_9ad187e1dbf10010bbeac4ab0b9619c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-19 13:01:40</sys_updated_on><update_access>true</update_access><user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-626057802</payload_hash>
+        <record_name>Ticket System</record_name>
+        <reverted_from/>
+        <source>ec63efa5db750010bbeac4ab0b961969</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 13:01:41</sys_created_on>
+        <sys_id>770893bddb310010bbeac4ab0b9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f1e3fe3680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 13:01:41</sys_updated_on>
+        <type>Table</type>
+        <update_guid>ff0893bd0d310010a9ccf94ada723abd</update_guid>
+        <update_guid_history>ff0893bd0d310010a9ccf94ada723abd:-626057802,cc632f29a575001044078670d23a7e03:0,6a53ab2901750010ecc53015d7b87a46:-1811183370,4a536b2937750010d32739ffcf173ebd:0,f5332729ed750010283e3b842c81b305:0,cc336329d575001008f7266653b741ea:-1811183370,eb236329aa750010bc7222be5ffecb52:0,a9ded3a175750010703d74b4d7ec007c:0,6f4d97211675001079c2fddf8b68bc61:-518325028,fa4d57211e750010220d601c816da985:0,f80387a5bff10010656414c1be6ac4e0:640624224,fdd2c3a553f10010f536c218dc314e9a:-160364765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 13:06:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>048eba81ea274e8e80871fc58bb7b3e1</sys_id>
+        <sys_metadata>9ad187e1dbf10010bbeac4ab0b9619c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ticket System</sys_name>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_scope_delete display_value="">6ea6d29aad124b85b0068d86628d60e9</sys_scope_delete>
+        <sys_update_name>sys_db_object_9ad187e1dbf10010bbeac4ab0b9619c1</sys_update_name>
+        <sys_update_version display_value="sys_db_object_9ad187e1dbf10010bbeac4ab0b9619c1">770893bddb310010bbeac4ab0b9619be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 13:06:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

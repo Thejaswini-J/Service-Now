@@ -104,7 +104,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Class</sys_name>
         <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
-        <sys_parent display_value="Tickets">46791261db710010bbeac4ab0b96198f</sys_parent>
+        <sys_parent display_value="">46791261db710010bbeac4ab0b96198f</sys_parent>
         <sys_policy/>
         <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
         <sys_scope_delete display_value="">6ea6d29aad124b85b0068d86628d60e9</sys_scope_delete>

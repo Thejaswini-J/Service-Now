@@ -12,23 +12,23 @@
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-   alert("Thank you for loading the form. When you close this alert you will be able to interact with the form.");
+   alert("Thank you for loading the form. When you close this alert you will be acle to interact with the form.");
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-12-18 19:25:41</sys_created_on>
+        <sys_created_on>2019-12-18 19:15:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>3dd52fe9db750010bbeac4ab0b9619ff</sys_id>
+        <sys_id>ed732369db750010bbeac4ab0b961903</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>On Load</sys_name>
         <sys_overrides/>
         <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
-        <sys_update_name>sys_script_client_3dd52fe9db750010bbeac4ab0b9619ff</sys_update_name>
+        <sys_update_name>sys_script_client_ed732369db750010bbeac4ab0b961903</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-18 19:25:41</sys_updated_on>
+        <sys_updated_on>2019-12-18 19:15:13</sys_updated_on>
         <table>x_406737_my_app_ticket_system</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
@@ -40,36 +40,36 @@
         <file_path/>
         <instance_id>12c675ccdb777f0049eac597059619fc</instance_id>
         <instance_name>dev93005</instance_name>
-        <name>sys_script_client_3dd52fe9db750010bbeac4ab0b9619ff</name>
+        <name>sys_script_client_ed732369db750010bbeac4ab0b961903</name>
         <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;On Load&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-   alert("Thank you for loading the form. When you close this alert you will be able to interact with the form.");
-}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-18 19:25:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3dd52fe9db750010bbeac4ab0b9619ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;On Load&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="My App" source="x_406737_my_app"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3dd52fe9db750010bbeac4ab0b9619ff&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 19:25:41&lt;/sys_updated_on&gt;&lt;table&gt;x_406737_my_app_ticket_system&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
-        <payload_hash>1560312795</payload_hash>
+   alert("Thank you for loading the form. When you close this alert you will be acle to interact with the form.");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-18 19:15:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ed732369db750010bbeac4ab0b961903&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;On Load&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="My App" source="x_406737_my_app"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ed732369db750010bbeac4ab0b961903&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 19:15:13&lt;/sys_updated_on&gt;&lt;table&gt;x_406737_my_app_ticket_system&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>785217244</payload_hash>
         <record_name>On Load</record_name>
         <reverted_from/>
         <source>ec63efa5db750010bbeac4ab0b961969</source>
         <source_table>sys_update_set</source_table>
         <state>previous</state>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-12-18 19:25:41</sys_created_on>
-        <sys_id>cf562fe9db750010bbeac4ab0b9619e1</sys_id>
+        <sys_created_on>2019-12-18 19:15:13</sys_created_on>
+        <sys_id>3df3a7a9db750010bbeac4ab0b9619a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>16f1a7917eb0000001</sys_recorded_at>
+        <sys_recorded_at>16f1a6f851f0000001</sys_recorded_at>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-18 19:25:41</sys_updated_on>
+        <sys_updated_on>2019-12-18 19:15:13</sys_updated_on>
         <type>Client Script</type>
-        <update_guid>0b562fe96e750010011784bc9aa05ae1</update_guid>
-        <update_guid_history>0b562fe96e750010011784bc9aa05ae1:1560312795</update_guid_history>
+        <update_guid>35f3a7a9e2750010b94e8c853c9342a6</update_guid>
+        <update_guid_history>35f3a7a9e2750010b94e8c853c9342a6:785217244</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
         <sys_audit_delete/>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-12-18 19:32:25</sys_created_on>
+        <sys_created_on>2019-12-19 13:06:49</sys_created_on>
         <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
-        <sys_id>275793e25d6b46c0970cab3f5841f464</sys_id>
-        <sys_metadata>3dd52fe9db750010bbeac4ab0b9619ff</sys_metadata>
+        <sys_id>1420c5f559a0479e85a2f435478b6e29</sys_id>
+        <sys_metadata>ed732369db750010bbeac4ab0b961903</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>On Load</sys_name>
         <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
@@ -77,9 +77,9 @@
         <sys_policy/>
         <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
         <sys_scope_delete display_value="">6ea6d29aad124b85b0068d86628d60e9</sys_scope_delete>
-        <sys_update_name>sys_script_client_3dd52fe9db750010bbeac4ab0b9619ff</sys_update_name>
-        <sys_update_version display_value="sys_script_client_3dd52fe9db750010bbeac4ab0b9619ff">cf562fe9db750010bbeac4ab0b9619e1</sys_update_version>
+        <sys_update_name>sys_script_client_ed732369db750010bbeac4ab0b961903</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ed732369db750010bbeac4ab0b961903">3df3a7a9db750010bbeac4ab0b9619a6</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-18 19:32:25</sys_updated_on>
+        <sys_updated_on>2019-12-19 13:06:49</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

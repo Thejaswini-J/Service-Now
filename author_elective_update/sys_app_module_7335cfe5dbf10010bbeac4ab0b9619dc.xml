@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="My App">2899de21db710010bbeac4ab0b9619a5</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_406737_my_app_ticket_system">u_string_7=resolved^ORu_string_7=closed^EQ<item display_value="Resolved" endquery="false" field="u_string_7" goto="false" newquery="false" operator="=" or="false" value="resolved"/>
+            <item display_value="Closed" endquery="false" field="u_string_7" goto="false" newquery="false" operator="=" or="true" value="closed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Closed</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_406737_my_app_ticket_system</name>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin,user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 17:02:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7335cfe5dbf10010bbeac4ab0b9619dc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_update_name>sys_app_module_7335cfe5dbf10010bbeac4ab0b9619dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-18 19:20:07</sys_updated_on>
+        <timeline_page/>
+        <title>Closed</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My App">39195aaddb310010bbeac4ab0b9619c4</application>
+        <file_path/>
+        <instance_id>12c675ccdb777f0049eac597059619fc</instance_id>
+        <instance_name>dev93005</instance_name>
+        <name>sys_app_module_7335cfe5dbf10010bbeac4ab0b9619dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="My App">2899de21db710010bbeac4ab0b9619a5</application><assessment/><device_type/><filter table="x_406737_my_app_ticket_system">u_string_7=resolved^ORu_string_7=closed^EQ<item display_value="Resolved" endquery="false" field="u_string_7" goto="false" newquery="false" operator="=" or="false" value="resolved"/><item display_value="Closed" endquery="false" field="u_string_7" goto="false" newquery="false" operator="=" or="true" value="closed"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Closed</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_406737_my_app_ticket_system</name><order>400</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>admin,user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-18 17:02:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7335cfe5dbf10010bbeac4ab0b9619dc</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Closed</sys_name><sys_overrides/><sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package><sys_policy/><sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope><sys_update_name>sys_app_module_7335cfe5dbf10010bbeac4ab0b9619dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-18 19:20:07</sys_updated_on><timeline_page/><title>Closed</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1594024658</payload_hash>
+        <record_name>Closed</record_name>
+        <reverted_from/>
+        <source>ec63efa5db750010bbeac4ab0b961969</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 19:20:07</sys_created_on>
+        <sys_id>a115e7a9db750010bbeac4ab0b961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f1a7400d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-18 19:20:07</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2d15e7a974750010ed572f881520830f</update_guid>
+        <update_guid_history>2d15e7a974750010ed572f881520830f:-1594024658,bc636f29d77500107d6e965e7bd38c3b:0,65532b29b1750010d78c435aa203ebfa:2118960610,223367298975001004f5193665b2e319:0,c323232901750010ad252c7229a50bab:2118960610,16de17a16375001077bcdc4e1bbf6adb:0,124d1721887500104330563c0814c4a0:-1628354488,afb817e9963500107475abc55d91f3b2:841466341,d2668b6955f10010195c0f06ba30c83e:-2053996690,e8954f290ef1001091545a7c4e7670dd:-2116634065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Closed">56395bfddb310010bbeac4ab0b9619cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 13:06:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>14bc183f4b0647258b5fcb2c08378771</sys_id>
+        <sys_metadata>7335cfe5dbf10010bbeac4ab0b9619dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed</sys_name>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_scope_delete display_value="">6ea6d29aad124b85b0068d86628d60e9</sys_scope_delete>
+        <sys_update_name>sys_app_module_7335cfe5dbf10010bbeac4ab0b9619dc</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7335cfe5dbf10010bbeac4ab0b9619dc">a115e7a9db750010bbeac4ab0b961910</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 13:06:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

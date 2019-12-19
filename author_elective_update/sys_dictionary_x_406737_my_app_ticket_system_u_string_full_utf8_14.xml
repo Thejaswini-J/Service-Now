@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_string_full_utf8_14" table="x_406737_my_app_ticket_system">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Notes</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_string_full_utf8_14</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">string_full_utf8</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <name>x_406737_my_app_ticket_system</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 17:37:57</sys_created_on>
+        <sys_id>50632f29db750010bbeac4ab0b961931</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Notes</sys_name>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_update_name>sys_dictionary_x_406737_my_app_ticket_system_u_string_full_utf8_14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 12:51:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My App">39195aaddb310010bbeac4ab0b9619c4</application>
+        <file_path/>
+        <instance_id>12c675ccdb777f0049eac597059619fc</instance_id>
+        <instance_name>dev93005</instance_name>
+        <name>sys_dictionary_x_406737_my_app_ticket_system_u_string_full_utf8_14</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_string_full_utf8_14" table="x_406737_my_app_ticket_system"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Notes</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_string_full_utf8_14</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="">string_full_utf8</internal_type><mandatory>false</mandatory><max_length>255</max_length><name>x_406737_my_app_ticket_system</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-18 17:37:57</sys_created_on><sys_id>50632f29db750010bbeac4ab0b961931</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Notes</sys_name><sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package><sys_policy/><sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope><sys_update_name>sys_dictionary_x_406737_my_app_ticket_system_u_string_full_utf8_14</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-19 12:51:03</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>219681223</payload_hash>
+        <record_name>Ticket System.Notes</record_name>
+        <reverted_from/>
+        <source>ec63efa5db750010bbeac4ab0b961969</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 12:51:03</sys_created_on>
+        <sys_id>c8a5d3f9db310010bbeac4ab0b9619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f1e3627d60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 12:51:03</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>44a5d3f94d310010c13335c50be0fab3</update_guid>
+        <update_guid_history>44a5d3f94d310010c13335c50be0fab3:219681223,84a5d3f92f310010981d86d7f29ed2a7:909456935,bc636f2924750010e1e45a34b1a23413:0,de53ab296075001031d2003bfde13d3b:-500952965,e63327294b750010da3a76e2f3b0a4fd:0,e64163a5f5750010ef9223445531e7f2:-500952965,18df9b253275001052c0ce363a283e42:219681223,50df9b25eb7500106e92ed0a1ce4f431:314022887,16de17a1a0750010669c8640e9f8c3bf:0,5f4d9721527500107f45c95b3c37c656:-500952965,cdbd4b21863500108f89c7589c44c4ca:219681223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 13:06:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>13d9c9d809644f30868df277d9fb8831</sys_id>
+        <sys_metadata>50632f29db750010bbeac4ab0b961931</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes</sys_name>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_parent display_value="">9ad187e1dbf10010bbeac4ab0b9619c1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_scope_delete display_value="">6ea6d29aad124b85b0068d86628d60e9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_406737_my_app_ticket_system_u_string_full_utf8_14</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_406737_my_app_ticket_system_u_string_full_utf8_14">c8a5d3f9db310010bbeac4ab0b9619b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 13:06:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

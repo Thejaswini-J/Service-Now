@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>On Submit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   alert("Thank you for submitting the record.");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 19:16:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d046fa5db750010bbeac4ab0b96192f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>On Submit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_update_name>sys_script_client_0d046fa5db750010bbeac4ab0b96192f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-18 19:16:31</sys_updated_on>
+        <table>x_406737_my_app_ticket_system</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My App">39195aaddb310010bbeac4ab0b9619c4</application>
+        <file_path/>
+        <instance_id>12c675ccdb777f0049eac597059619fc</instance_id>
+        <instance_name>dev93005</instance_name>
+        <name>sys_script_client_0d046fa5db750010bbeac4ab0b96192f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;On Submit&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   alert("Thank you for submitting the record.");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-18 19:16:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0d046fa5db750010bbeac4ab0b96192f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;On Submit&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="My App" source="x_406737_my_app"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My App"&gt;39195aaddb310010bbeac4ab0b9619c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0d046fa5db750010bbeac4ab0b96192f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 19:16:31&lt;/sys_updated_on&gt;&lt;table&gt;x_406737_my_app_ticket_system&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>619207719</payload_hash>
+        <record_name>On Submit</record_name>
+        <reverted_from/>
+        <source>ec63efa5db750010bbeac4ab0b961969</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 19:16:31</sys_created_on>
+        <sys_id>f044eba5db750010bbeac4ab0b961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f1a70b5230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-18 19:16:31</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>3c44eba5d5750010da07063c0866f081</update_guid>
+        <update_guid_history>3c44eba5d5750010da07063c0866f081:619207719,65346ba54e750010611646ea1427ad11:-2045197801</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 13:06:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1049aa1a3b7545c883097f81c5062890</sys_id>
+        <sys_metadata>0d046fa5db750010bbeac4ab0b96192f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On Submit</sys_name>
+        <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+        <sys_parent display_value="">9ad187e1dbf10010bbeac4ab0b9619c1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+        <sys_scope_delete display_value="">6ea6d29aad124b85b0068d86628d60e9</sys_scope_delete>
+        <sys_update_name>sys_script_client_0d046fa5db750010bbeac4ab0b96192f</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0d046fa5db750010bbeac4ab0b96192f">f044eba5db750010bbeac4ab0b961982</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 13:06:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
