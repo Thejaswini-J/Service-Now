@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="New Section" section_id="7f0c1bb1db710010bbeac4ab0b961999" sys_domain="global" table="x_406737_my_app_ticket_system" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_6</element>
+            <element>u_short_description</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-19 13:19:11</sys_created_on>
-            <sys_id>901c9bb1db710010bbeac4ab0b961911</sys_id>
+            <sys_created_on>2019-12-19 18:41:20</sys_created_on>
+            <sys_id>d7c5a002dbb50010bbeac4ab0b961953</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_406737_my_app_ticket_system" sys_domain="global" view="Default view">7f0c1bb1db710010bbeac4ab0b961999</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-19 13:19:11</sys_updated_on>
+            <sys_updated_on>2019-12-19 18:41:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_full_utf8_7</element>
+            <element>u_description</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-19 13:19:11</sys_created_on>
-            <sys_id>141c9bb1db710010bbeac4ab0b961911</sys_id>
+            <sys_created_on>2019-12-19 18:41:20</sys_created_on>
+            <sys_id>5bc5a002dbb50010bbeac4ab0b961953</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_406737_my_app_ticket_system" sys_domain="global" view="Default view">7f0c1bb1db710010bbeac4ab0b961999</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-19 13:19:11</sys_updated_on>
+            <sys_updated_on>2019-12-19 18:41:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_full_utf8_8</element>
+            <element>u_notes</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-19 13:19:11</sys_created_on>
-            <sys_id>941c9bb1db710010bbeac4ab0b961911</sys_id>
+            <sys_created_on>2019-12-19 18:41:20</sys_created_on>
+            <sys_id>dbc5a002dbb50010bbeac4ab0b961953</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_406737_my_app_ticket_system" sys_domain="global" view="Default view">7f0c1bb1db710010bbeac4ab0b961999</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-19 13:19:11</sys_updated_on>
+            <sys_updated_on>2019-12-19 18:41:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

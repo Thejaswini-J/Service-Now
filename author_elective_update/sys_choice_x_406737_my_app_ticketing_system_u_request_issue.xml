@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_request_issue" table="x_406737_my_app_ticketing_system" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_issue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request</label>
+            <language>en</language>
+            <name>x_406737_my_app_ticketing_system</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 18:52:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8482482dbb50010bbeac4ab0b9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-19 18:52:05</sys_updated_on>
+            <value>request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_issue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue</label>
+            <language>en</language>
+            <name>x_406737_my_app_ticketing_system</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 18:52:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c482482dbb50010bbeac4ab0b9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-19 18:52:05</sys_updated_on>
+            <value>issue</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_request_issue</element>
+            <name>x_406737_my_app_ticketing_system</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 18:52:05</sys_created_on>
+            <sys_id>34482482dbb50010bbeac4ab0b9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_request_issue</sys_name>
+            <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
+            <sys_update_name>sys_choice_x_406737_my_app_ticketing_system_u_request_issue</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-19 18:52:05</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

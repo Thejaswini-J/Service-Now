@@ -1,74 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="DELETE" field="u_string_2" table="x_406737_my_app_ticket_system" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_string_2</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Legal</label>
-            <language>en</language>
-            <name>x_406737_my_app_ticket_system</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-19 12:51:02</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0ca5d3f9db310010bbeac4ab0b96198d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-19 12:51:02</sys_updated_on>
-            <value>legal</value>
-        </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+        <sys_choice_set action="DELETE">
             <element>u_string_2</element>
             <name>x_406737_my_app_ticket_system</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-19 12:51:02</sys_created_on>
-            <sys_id>cca5d3f9db310010bbeac4ab0b96198b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_string_2</sys_name>
-            <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
-            <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
-            <sys_update_name>sys_choice_x_406737_my_app_ticket_system_u_string_2</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-19 12:51:02</sys_updated_on>
+            <sys_scope/>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2019-12-19 18:18:23</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="My App">39195aaddb310010bbeac4ab0b9619c4</application>
+        <application display_value="Global">global</application>
         <file_path/>
         <instance_id>12c675ccdb777f0049eac597059619fc</instance_id>
         <instance_name>dev93005</instance_name>
         <name>sys_choice_x_406737_my_app_ticket_system_u_string_2</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_string_2" table="x_406737_my_app_ticket_system" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_string_2</element><hint/><inactive>false</inactive><label>Legal</label><language>en</language><name>x_406737_my_app_ticket_system</name><sequence>2</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-19 12:51:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0ca5d3f9db310010bbeac4ab0b96198d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-19 12:51:02</sys_updated_on><value>legal</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_string_2</element><name>x_406737_my_app_ticket_system</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-19 12:51:02</sys_created_on><sys_id>cca5d3f9db310010bbeac4ab0b96198b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_string_2</sys_name><sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package><sys_policy/><sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope><sys_update_name>sys_choice_x_406737_my_app_ticket_system_u_string_2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-19 12:51:02</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
-        <payload_hash>535855830</payload_hash>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_string_2" table="x_406737_my_app_ticket_system" version="3"><sys_choice_set action="DELETE"><element>u_string_2</element><name>x_406737_my_app_ticket_system</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2019-12-19 18:18:23</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1874409280</payload_hash>
         <record_name>x_406737_my_app_ticket_system.u_string_2</record_name>
         <reverted_from/>
-        <source>ec63efa5db750010bbeac4ab0b961969</source>
+        <source>820e5046db750010bbeac4ab0b96190b</source>
         <source_table>sys_update_set</source_table>
         <state>previous</state>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-12-19 13:06:48</sys_created_on>
-        <sys_id>47399bfddb310010bbeac4ab0b96197e</sys_id>
+        <sys_created_on>2019-12-19 18:18:23</sys_created_on>
+        <sys_id>9f80204adb750010bbeac4ab0b9619eb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>16f1e4494a00000001</sys_recorded_at>
+        <sys_recorded_at>16f1f61d96f0000001</sys_recorded_at>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-19 13:06:48</sys_updated_on>
+        <sys_updated_on>2019-12-19 18:18:23</sys_updated_on>
         <type>Choice list</type>
-        <update_guid>cf399bfddf310010f0df48f34b113a7d</update_guid>
-        <update_guid_history>cf399bfddf310010f0df48f34b113a7d:535855830,3a399bfde031001012179946c7548c7b:-2068096825,08a5d3f93f3100105122b718a5322a8f:576469301,23236329777500100370b92534356426:-1874409280,a7236329a5750010e491d83cbb475123:535855830,ef2363298a75001085e7fcbf97dbb820:-2068096825,a0c2abe54c75001086c05cec24f0687f:576469301,f24d572199750010da8dc5bf2f431b54:2037431558,7a4d5721ff750010e00ff7cd5ff26a50:708460976,a24d57215a750010449c629f5fc6714e:1043949406,ea4d57214d75001099184fc28693b04b:-337959405,264d5721c1750010a95c07ebbe55b949:-1581541861,6e4d5721c975001089cb886fde737746:1840829900,a64d5721657500106240a08434530644:-536353177,ea241fa54c350010a17f9e35aa5abdd7:-1065253931,20e31ba52d350010dfc1150d929347aa:2103509794</update_guid_history>
+        <update_guid>d780204a997500107c0d1d56643762eb</update_guid>
+        <update_guid_history>d780204a997500107c0d1d56643762eb:-1874409280,880e9446fe7500104898b3efc22fffef:0,840e9446f67500105c1b3b4cee9bbfee:0,d1fdd046b17500106b7849d318d28c9f:1896711735,419d98069d750010350c0d315ceda301:0,4d9d5806227500106560501ca55accff:0,086d9cc2a9750010c60a58d251175356:-1874409280,39ac10c2f9750010efc8e3a5a7413382:0,b1ac10c285750010130c0f3a24561381:0,896a944e683500105b494f6deb468b33:1334417663,496a944e3535001099dc484cad2d8830:-325109885,056a944ef3350010e11396bd1c27c62e:-861529191,cd6a944e3f350010f4207d7091b5292b:-841725620,896a944ede350010b356aa8a5c2adf29:-1136960070,456a944e0b350010572dedee10cf9027:1185919983,016a944ea135001049a961dc69462e25:1573209005,c96a944e0e3500102b978177f0566022:1105756380,f3fdeff1f8b10010f64ab7ada57b62f1:-1280218994,941c5bb1b97100109ede877c127d5ce2:129934855,03399bfdca3100101f8843efd093218e:1926777075,cf399bfddf310010f0df48f34b113a7d:535855830,3a399bfde031001012179946c7548c7b:-2068096825,08a5d3f93f3100105122b718a5322a8f:576469301,23236329777500100370b92534356426:-1874409280,a7236329a5750010e491d83cbb475123:535855830,ef2363298a75001085e7fcbf97dbb820:-2068096825,a0c2abe54c75001086c05cec24f0687f:576469301,f24d572199750010da8dc5bf2f431b54:2037431558,7a4d5721ff750010e00ff7cd5ff26a50:708460976,a24d57215a750010449c629f5fc6714e:1043949406,ea4d57214d75001099184fc28693b04b:-337959405,264d5721c1750010a95c07ebbe55b949:-1581541861,6e4d5721c975001089cb886fde737746:1840829900,a64d5721657500106240a08434530644:-536353177,ea241fa54c350010a17f9e35aa5abdd7:-1065253931,20e31ba52d350010dfc1150d929347aa:2103509794</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
         <sys_audit_delete/>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-12-19 13:06:48</sys_created_on>
+        <sys_created_on>2019-12-19 18:20:32</sys_created_on>
         <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
-        <sys_id>cca5d3f9db310010bbeac4ab0b96198b</sys_id>
-        <sys_metadata>cca5d3f9db310010bbeac4ab0b96198b</sys_metadata>
+        <sys_id>a901248adb750010bbeac4ab0b9619aa</sys_id>
+        <sys_metadata>a901248adb750010bbeac4ab0b9619aa</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_string_2</sys_name>
         <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
@@ -77,8 +58,8 @@
         <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
         <sys_scope_delete display_value="">6ea6d29aad124b85b0068d86628d60e9</sys_scope_delete>
         <sys_update_name>sys_choice_x_406737_my_app_ticket_system_u_string_2</sys_update_name>
-        <sys_update_version display_value="sys_choice_x_406737_my_app_ticket_system_u_string_2">47399bfddb310010bbeac4ab0b96197e</sys_update_version>
+        <sys_update_version display_value="sys_choice_x_406737_my_app_ticket_system_u_string_2">9f80204adb750010bbeac4ab0b9619eb</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-19 13:06:48</sys_updated_on>
+        <sys_updated_on>2019-12-19 18:20:32</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

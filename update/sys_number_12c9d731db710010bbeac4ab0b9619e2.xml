@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
     <sys_number action="INSERT_OR_UPDATE">
-        <category display_value="" name="x_406737_my_app_ticket_system">x_406737_my_app_ticket_system</category>
+        <category display_value="">x_406737_my_app_ticket_system</category>
         <maximum_digits>7</maximum_digits>
         <number>1000</number>
         <prefix>TIC</prefix>

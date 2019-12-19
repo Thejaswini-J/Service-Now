@@ -4,9 +4,7 @@
         <application display_value="My App">2899de21db710010bbeac4ab0b9619a5</application>
         <assessment/>
         <device_type/>
-        <filter table="x_406737_my_app_ticket_system">u_string_4=awaiting approval^ORu_string_4=awaiting user^EQ<item display_value="Awaiting Approval" endquery="false" field="u_string_4" goto="false" newquery="false" operator="=" or="false" value="awaiting approval"/>
-            <item display_value="Awaiting User" endquery="false" field="u_string_4" goto="false" newquery="false" operator="=" or="true" value="awaiting user"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="x_406737_my_app_ticket_system">u_string_4=awaiting approval^ORu_string_4=awaiting user^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint>Open tickets</hint>
         <homepage/>

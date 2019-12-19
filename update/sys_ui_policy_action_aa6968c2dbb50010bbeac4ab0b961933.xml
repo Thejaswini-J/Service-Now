@@ -6,17 +6,17 @@
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-12-19 17:45:04</sys_created_on>
-        <sys_id>a9d898cadb350010bbeac4ab0b9619a8</sys_id>
+        <sys_created_on>2019-12-19 18:57:32</sys_created_on>
+        <sys_id>aa6968c2dbb50010bbeac4ab0b961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_other</sys_name>
         <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
-        <sys_update_name>sys_ui_policy_action_a9d898cadb350010bbeac4ab0b9619a8</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_aa6968c2dbb50010bbeac4ab0b961933</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-19 17:45:04</sys_updated_on>
-        <table>x_406737_my_app_ticket_system</table>
+        <sys_updated_on>2019-12-19 18:57:32</sys_updated_on>
+        <table>x_406737_my_app_ticketing_system</table>
         <ui_policy display_value="Show or hide Other field">ca1810cadb350010bbeac4ab0b96190c</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
