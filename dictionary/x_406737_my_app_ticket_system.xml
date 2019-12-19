@@ -16,7 +16,9 @@
                 <element inactive_on_update="false" label="Admin" sequence="2" value="admin"/>
                 <element inactive_on_update="false" label="Payroll" sequence="3" value="payroll"/>
                 <element inactive_on_update="false" label="Customer Service" sequence="4" value="customer service"/>
-                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
+                <element inactive_on_update="false" label="Facilities" sequence="5" value="facilities"/>
+                <element inactive_on_update="false" label="Legal" sequence="6" value="legal"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="low" label="Priority" max_length="40" name="u_string_3" type="string">
@@ -39,6 +41,7 @@
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_string_6" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="255" name="u_string_full_utf8_7" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Notes" max_length="255" name="u_string_full_utf8_8" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="What Needed" max_length="40" name="u_what_needed" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
