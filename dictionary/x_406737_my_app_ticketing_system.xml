@@ -32,6 +32,7 @@
                 <element inactive_on_update="false" label="Closed" sequence="6" value="closed"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Business rule" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="it" label="Team" max_length="40" name="u_team" type="string">
             <choice>
                 <element inactive_on_update="false" label="Admin" sequence="0" value="admin"/>

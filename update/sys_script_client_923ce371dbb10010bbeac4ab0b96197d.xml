@@ -23,7 +23,7 @@
 		
 		// If the value of the Request type field is hr, add
 		// two hr choices and other to the What needed field choice list
-		if(newValue == 'hr'){
+		if(newValue === 'hr'){
 			g_form.addOption('u_what_needed','hr1','Human Resources 1');
 			g_form.addOption('u_what_needed','hr2','Human Resources 2');
 			g_form.addOption('u_what_needed','other','Other');
@@ -31,7 +31,7 @@
 		// If the value of the Request type field is facilities, add
 		// two facilities choices and other to the What needed field
 		// choice list
-		if(newValue == 'facilities'){
+		if(newValue === 'facilities'){
 			g_form.addOption('u_what_needed','facilities1','Facilities 1');
 			g_form.addOption('u_what_needed','facilities2','Facilities 2');
 			g_form.addOption('u_what_needed','other','Other');
@@ -39,7 +39,7 @@
 		// If the value of the Request type field is legal, add
 		// two legal choices and other to the What needed field
 		// choice list
-		if(newValue == 'legal'){
+		if(newValue === 'legal'){
 			g_form.addOption('u_what_needed','legal1','Legal 1');
 			g_form.addOption('u_what_needed','legal2','Legal 2');
 			g_form.addOption('u_what_needed','other','Other');
@@ -57,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>923ce371dbb10010bbeac4ab0b96197d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>What needed options</sys_name>
         <sys_overrides/>
         <sys_package display_value="My App" source="x_406737_my_app">39195aaddb310010bbeac4ab0b9619c4</sys_package>
@@ -65,7 +65,7 @@
         <sys_scope display_value="My App">39195aaddb310010bbeac4ab0b9619c4</sys_scope>
         <sys_update_name>sys_script_client_923ce371dbb10010bbeac4ab0b96197d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-19 19:53:56</sys_updated_on>
+        <sys_updated_on>2019-12-20 12:53:06</sys_updated_on>
         <table>x_406737_my_app_ticketing_system</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
